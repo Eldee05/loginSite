@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(bkground.jpg) ;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 70px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-family: Arial;
+    
+}
+nav ul li button{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    transition: transfrom .3s;
+    color: whitesmoke;
+}
+nav ul li button:hover{
+    color: rgb(168, 43, 226);
+    transform: scale(1.1);
+}
+nav ul li a:hover{
+    color: rgb(226, 68, 165);
+}
+a{
+    text-decoration: none;
+    color:palevioletred;
+    font-size: 28px;
+}
+#login-form{
+    display: none;
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 2% auto;
+    background: rgba(0,0,0,0.3);
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.buttonbox{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow:  0 0 10px 5px #ff61241f;
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    position: relative;
+    outline: none;
+    border: 0;
+}
+#btn{
+    top: 0;
+    left:0 ;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: #F3c693;
+    border-radius: 30px;
+    transition: .4s;
+}
+.input-group-login{
+    top: 150px;
+    position: absolute;
+    width: 280px;
+    transition: .4s;
+}
+.input-group-register{
+    top: 120px;
+    position: absolute;
+    width: 280px;
+    transition: .4s;
+}
+.input-field{
+    width:100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    outline: none;
+    background: transparent;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    border-left: 0;
+    border-right: 0;
+}
+.submit-btn{
+    width:80%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    background: #F3c693;
+    outline: none;
+    border-radius: 25px;
+    border: 0;
+}
+.checkbox{
+    margin: 40px 20px 40px 10px;
+}
+span{
+    color: #77777777;
+    font-size: 15px;
+    bottom: 70px;
+    position: absolute;
+}
+#login{
+    left: 50px;
+}
+#login input{
+    color: white;
+    font-size: 15;
+}
+#register{
+    left: 450px;
+}
+#register input{
+    color: white;
+    font-size: 15;
+}
+
+
+
+
+
+
+
